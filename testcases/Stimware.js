@@ -1,6 +1,6 @@
 describe('Steamware', function() {
     it('Contact Form', function() {
-        browser.waitForAngularEnabled(false);
+       // browser.waitForAngularEnabled(false);
         browser.get("https://stimwavefreedom.com/");
 
         browser.sleep(5000);
