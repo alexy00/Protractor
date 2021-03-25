@@ -3,7 +3,7 @@ describe('Steamware', function() {
         browser.waitForAngularEnabled(false);
         browser.get("https://stimwavefreedom.com/");
 
-        browser.sleep(2000);
+        browser.sleep(5000);
         element(by.css("#menu-patient-main > :nth-child(6) > a")).click();
         //element(by.id('login1')).sendKeys('alabandy');
         element(by.id('swcontactform-firstname')).sendKeys("First");
