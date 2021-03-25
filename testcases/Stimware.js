@@ -18,8 +18,6 @@ describe('Steamware', function() {
         const  selectReferral = element(by.id('swcontactform-pain_area'));
         selectReferral.$('[value="4"]').click();
         browser.sleep(3000);
-        //
-        browser.sleep(3000);
         browser.switchTo().defaultContent();
         
     })
