@@ -9,7 +9,7 @@ describe('Promise example',function(){
         browser.get('https://learn.letskodeit.com/p/practice');
       });
       it("validate customer login test", function(){
-        pf.bmwCheck.click();
+        pf.bmwCheck().click();
         pf.benzCheck.click();
         pf.hondaCheck.click();
         browser.sleep(3000)   
