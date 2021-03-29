@@ -18,9 +18,12 @@ describe('Steamware', function() {
         const  selectReferral = element(by.id('swcontactform-pain_area'));
         selectReferral.$('[value="4"]').click();
         browser.sleep(3000);
+        /*browser.switchTo().frame("iframeResult").then(function(){
+
+            let tryIt = element(by.id('recaptcha-anchor'));
+            tryIt.click();*/
         //browser.switchTo().defaultContent();
+        })
         
     })
         
-
-})
