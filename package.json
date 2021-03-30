@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "jasmine-data-provider": "^2.2.0"
+  }
+}

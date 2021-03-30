@@ -6,7 +6,7 @@ exports.config = {
     },
     // Framework to use. Jasmine is recommended.
     framework: 'jasmine2',
-    specs: ['testcases/noneAngular.js'],
+    specs: ['testcases/NthElement.js'],
     jasmineNodeOpts: {
       defaultTimeoutInterval: 30000
     }
