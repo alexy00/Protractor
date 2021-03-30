@@ -17,8 +17,5 @@ describe('Liquibase', function() {
       //element(by.className("container")).click();
       //browser.sleep(3000)
       //element(by.id("signInFormUsername")).sendKeys("aaa");
-
-      
-    
 });
 })
