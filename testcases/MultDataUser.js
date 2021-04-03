@@ -16,8 +16,6 @@ describe('Multiple Data providers', () => {
         ];
     }
 
-    //using([{userName:MultCredentials.username,passWord:MultCredentials.password},{userName:MultCredentials.username1,passWord:MultCredentials.password1}],function(data){
-
     using (plusprovider,function(data){  
         it('Data Providers user', () => {
             element(By.id('identifierId')).sendKeys(data.userName);//username comes from Credentials.json
