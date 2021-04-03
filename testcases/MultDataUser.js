@@ -11,8 +11,8 @@ describe('Multiple Data providers', () => {
     function plusprovider(){
 
         return [
-            {username:MultCredentials.username,password:MultCredentials.password},
-            {username:MultCredentials.username1,password:MultCredentials.password1}
+            {userName:MultCredentials.username,passWord:MultCredentials.password},
+            {userName:MultCredentials.username1,passWord:MultCredentials.password1}
         ];
     }
 
@@ -20,7 +20,7 @@ describe('Multiple Data providers', () => {
 
     using (plusprovider,function(data){  
         it('Data Providers user', () => {
-            element(By.id('identifierId')).sendKeys(data.username);//username comes from Credentials.json
+            element(By.id('identifierId')).sendKeys(data.userName);//username comes from Credentials.json
             console.log(data.username)
             browser.sleep(1000);
         })
